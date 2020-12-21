@@ -73,6 +73,10 @@
 	</div>
 </div>
 
+<?php
+echo "Hello world!"
+?>
+
 <script type="text/javascript">
 var msg = "Hello Develover!";
 console.log(msg);
