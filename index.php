@@ -1,89 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Grids</title>
-	<style type="text/css">
-		body{
-			background-color:#E4E4E4;
-			justify-content: center;
-
-		}
-		*{
-			padding:0;
-			margin: 0;
-			text-decoration: none;
-		}
-		.wrapper{
-			padding-top: 10%;
-			display: grid;
-    		grid-template-columns: 1fr 1fr 1fr;
-    		grid-gap: 5%;
-   
-		}
-		.wrapper>div{
-			background-color: #3A3A3E;
-			padding: 100px;
-
-		}
-
-		.wrapper>div>p{
-			color: white;
-		}
-		.wrapper-object1>p{
-			text-align: left;
-			font-style: italic;
-		}
-		.wrapper-object2>p{
-			text-align: center;
-			font-weight: bold;
-		}
-		.wrapper-object3>p{
-			text-align: right;
-			text-decoration: underline;
-		}
-		@media screen and (max-width: 1100px) {
-    		.wrapper{
-			 grid-row: 1fr 1fr 1fr;
-   			grid-template-columns: unset;
-    		}
-
-		}		
-	</style>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+	<title>Que Dafoe Site!</title>
+	<meta charset="utf-8">
 </head>
 <body>
-<div class="wrapper">
-	<div class="wrapper-object1">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem orci, placerat ut ante quis, porta sodales metus. Ut sit amet dui vitae dolor dictum ultrices sed vitae turpis. Nam vel nisi porttitor, sagittis quam ac, molestie velit. Nam eleifend ex sed quam eleifend scelerisque. Praesent eget risus accumsan, rhoncus nunc ut, laoreet ipsum. Fusce aliquet urna tortor, sit amet cursus ipsum fringilla nec. Maecenas vitae varius risus, at vestibulum felis. Nulla vitae tellus nec velit tempor pharetra eget sit amet sapien. Praesent aliquet a mauris imperdiet pellentesque. Sed eu elementum augue. Pellentesque sollicitudin nisi vel ex tincidunt, ut volutpat risus rutrum. Vestibulum sollicitudin nisi eu odio suscipit consectetur. Curabitur ullamcorper aliquet massa eu tempor.
-		</p>
-	</div>
-	<div class="wrapper-object2">
-		<p>
-			Proin ullamcorper dolor in turpis scelerisque tempus. Integer lorem ante, viverra non dolor vel, iaculis dignissim mauris. Sed sagittis aliquam feugiat. Vivamus congue in eros quis porta. Vivamus rhoncus mollis rhoncus. Suspendisse potenti. Cras id arcu non ligula pretium viverra. Pellentesque tempus leo id lorem pellentesque, id malesuada odio lacinia. Maecenas nec consequat ipsum, nec fringilla felis. Etiam eu nulla non ligula vehicula vulputate ac sit amet mi. Vestibulum euismod lacus sit amet orci varius scelerisque. Etiam nec viverra leo. Nunc eu purus aliquam ante pellentesque vestibulum a id massa.
-		</p>
-	</div>
-	<div class="wrapper-object3">
-		<p id="content" >
-			Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed et ex aliquam, lobortis mi ac, fermentum quam. Vivamus lacus purus, ultrices non venenatis sed, elementum eget felis. Nulla vestibulum sem at tortor dapibus, eu scelerisque lorem porta. Fusce porta, odio at convallis mattis, nisl ex dignissim ligula, faucibus gravida ex libero eu sem. Vestibulum eget mattis ex. Etiam auctor urna non quam scelerisque eleifend. Morbi gravida ultrices tellus vitae egestas. Curabitur accumsan scelerisque velit, sit amet lacinia diam dignissim vel. Nunc venenatis auctor tincidunt. Nullam lobortis vulputate risus, sed scelerisque diam laoreet at.
-		</p>
-		
-	</div>
-</div>
 
-<?php
-echo "Hello world!"
-?>
-
-<script type="text/javascript">
-var msg = "Hello Develover!";
-console.log(msg);
-
-var content = document.getElementById("content");
-console.log(content.innerHTML);
-			
-</script>
 </body>
 </html>
